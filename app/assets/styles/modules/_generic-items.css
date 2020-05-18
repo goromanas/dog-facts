@@ -1,0 +1,24 @@
+.generic-content {
+    color: $darkBlue;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: 300;
+    color: $lightBlue;
+    margin-top: 50px;
+
+    @mixin atMedium {
+        text-align: left;
+    }
+    text-align: center;
+
+    &--highlight {
+        color: $darkBlue;
+        font-size: 20px;
+        font-weight: 700;
+        display: block;
+    }
+}
