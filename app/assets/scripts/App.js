@@ -1,7 +1,7 @@
 import '../styles/styles.css';
-import Slider from './modules/Slider.js'
+import Dog from './modules/Dog'
 
-new Slider()
+new Dog()
 
 if (module.hot) {
     module.hot.accept();

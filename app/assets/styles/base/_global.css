@@ -1,13 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;400;700');
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.1rem;
     box-sizing: border-box;
 
     @mixin atMedium {
-        font-size: 32px;
+        font-size: 1.2rem;
     }
+}
+
+body {
+    overflow: hidden;
 }

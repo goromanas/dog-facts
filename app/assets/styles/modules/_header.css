@@ -1,0 +1,15 @@
+.header {
+    background:#A67A53;
+    height: 60px;
+
+    &__title {
+        color: #fff;
+        font-weight: 200;
+        text-transform: uppercase;
+        padding-left: 10px; 
+
+        @mixin atMedium {
+            padding-left: 0px;    
+        }
+    }
+}

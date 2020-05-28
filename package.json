@@ -1,5 +1,5 @@
 {
-  "name": "testimonial-slider",
+  "name": "dog-fact-app",
   "version": "1.0.0",
   "main": "webpack.config.js",
   "dependencies": {
