@@ -1,4 +1,8 @@
 .site-container {
     background-image: radial-gradient( circle 343px at 46.3% 47.5%,  rgba(242,242,242,1) 0%, rgba(241,241,241,1) 72.9% );
-    height: 100vh;
+    
+
+    @mixin atMedium {
+        height: 100vh;
+    }
 }

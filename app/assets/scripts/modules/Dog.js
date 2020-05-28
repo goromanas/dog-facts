@@ -19,7 +19,7 @@ class Dog {
   // Methods
 
   // Get information from API
-  async getInformation(url) {
+  getInformation(url) {
 
     fetch(url).then(res => res.json())
       .then(data => {
@@ -34,7 +34,7 @@ class Dog {
       'cat', 'kitten', 'kitty', 'kitties', 'Cat', 'Kitten', 'puppies', 'Puppies', 'meow', ' Meow', 'Mau', 'tom'
     ]
     let replacement = [
-      'dog', 'puppy', 'puppy', 'puppies', 'Dog', 'puppy', 'kitten', 'Kitten', 'bark', 'Bark', 'Saluki', 'dog'
+      'dog', 'puppy', 'puppy', 'puppies', 'Dog', 'Puppy', 'kitten', 'Kitten', 'bark', 'Bark', 'Saluki', 'dog'
     ]
     let originalReg = []
 

@@ -14,13 +14,12 @@
     }
 
     &__image {
-        margin: 0;
+        margin: 0;   
         min-width: 200px;
         height: 300px;
         background: gray;
         background-repeat: no-repeat;
         background-size: cover;
-
         @mixin atMedium {
             margin-right: 50px;
             flex-basis: 60%;
@@ -54,7 +53,7 @@
         margin: 20px 0;
         padding: 2rem;
         background: rgba(0, 0, 0, .1);
-
+        
         @mixin atMedium {
             margin: 0;
         }
