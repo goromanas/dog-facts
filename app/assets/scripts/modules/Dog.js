@@ -39,7 +39,7 @@ class Dog {
     let originalReg = []
 
     for (let i = 0; i <= original.length; i++) {
-      originalReg[i] = new RegExp(original[i], 'g')
+      originalReg[i] = new RegExp(original[i], 'g');
     }
 
     let output = []
